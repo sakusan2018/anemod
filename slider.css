@@ -304,12 +304,13 @@ content: '';
     transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+
 .is-pagination li a.active:before{
 width: 25px;
     height: 2px;
     background: #FF9800;
-    margin-top: -1px;
-    left: 8px;
+    margin-top: -2px;
+    left: -8px;
 }
 
 .is-next,  .is-prev {
